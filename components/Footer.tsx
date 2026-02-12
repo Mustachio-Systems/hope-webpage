@@ -20,8 +20,6 @@ export default function Footer() {
             <h3 className="text-hope-gold font-sans text-xs uppercase tracking-[0.2em] mb-6">Collection</h3>
             <ul className="space-y-4">
               <li><Link href="/shop" className="text-stone-400 hover:text-white font-sans text-sm transition-colors">All Products</Link></li>
-              <li><Link href="/shop/pashminas" className="text-stone-400 hover:text-white font-sans text-sm transition-colors">Pashminas</Link></li>
-              <li><Link href="/shop/jewelry" className="text-stone-400 hover:text-white font-sans text-sm transition-colors">Jewelry</Link></li>
             </ul>
           </div>
 
@@ -38,7 +36,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-stone-600 font-sans text-xs uppercase tracking-widest">© 2026 HOPE. All rights reserved.</p>
-          <p className="text-stone-600 font-sans text-xs uppercase tracking-widest mt-4 md:mt-0">Designed for Luxury</p>
+          <p className="text-stone-600 font-sans text-xs uppercase tracking-widest mt-4 md:mt-0">Designed by Mustachio Systems</p>
         </div>
       </div>
     </footer>
