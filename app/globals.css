@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-montserrat); 
+  --font-serif: var(--font-cormorant);
+
+  /* LUXURY DARK PALETTE */
+  --color-hope-gold: #D4AF37;       /* Antique Gold */
+  --color-hope-rose: #881337;       /* Deep Rose */
+  --color-hope-midnight: #0c0a09;   /* Deepest Black/Brown */
+  --color-hope-charcoal: #1c1917;   /* Rich Dark Grey */
+  --color-hope-text: #e7e5e4;       /* Soft Grey Text */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-hope-midnight);
+}
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hope-gold);
+}
